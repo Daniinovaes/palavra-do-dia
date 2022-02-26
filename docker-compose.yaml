@@ -22,7 +22,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - ./palavradodia:/data/db
+      - /home/mongodb:/data/db
     networks:
       - mongo-compose-network
 
